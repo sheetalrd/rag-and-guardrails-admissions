@@ -26,7 +26,7 @@ BLOCKED_PATTERNS = {
         re.IGNORECASE,
     ),
     "harmful request": re.compile(
-        r"\b(fake|forged?|counterfeit|falsif\w+|nep|vervals\w*)\b.{0,50}\b(diploma|transcripts?|certificates?|degree|ielts|toefl|bank statement|visa|permit|letter|note|id|citizenship|nationality|cijferlijst|certificaat|reviews?|offer)\b",
+        r"\b(fake|forged?|counterfeit|falsif\w+|nep|vervals\w*)\b.{0,50}\b(diploma|transcripts?|certificates?|degree|ielts|toefl|bank statement|visa|permit|letter|note|id|citizenship|nationality|cijferlijst|certificaat|reviews?|offer)\b"
         r"|\b(cheat\w*|brib\w+|blackmail|omkopen|plagiarism (check|detector))\b"
         r"|\b(take|sit)\b.{0,20}\b(ielts|toefl|test|exam)\b.{0,20}\bfor me\b"
         r"|\b(hack\w*|brute[- ]?force|ddos|keylogger|ransomware|malware|phishing|break into)\b"
