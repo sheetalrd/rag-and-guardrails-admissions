@@ -54,10 +54,12 @@ pip install -r requirements.txt
 **Windows (PowerShell)**
 
 ```powershell
-python -m venv .venv
+py -m venv .venv
 .venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 ```
+
+If `py` is not recognized either, install Python 3.10 or newer with the Python launcher enabled, then open a new PowerShell terminal and retry.
 
 If PowerShell refuses to run the activate script, run `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned` once and try again. In the classic Command Prompt, use `.venv\Scripts\activate.bat` instead.
 

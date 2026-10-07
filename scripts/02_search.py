@@ -34,7 +34,7 @@ def chunk_table(chunks) -> Table:
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("question", nargs="?", default="how much protein should i eat to build muscle?")
+    parser.add_argument("question", nargs="?", default="When does the selection test for Business Administration take place?")
     parser.add_argument("--top-k", type=int, default=settings.top_k)
     args = parser.parse_args()
 
