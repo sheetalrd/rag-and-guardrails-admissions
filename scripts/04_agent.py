@@ -3,7 +3,7 @@
 import sys
 from pathlib import Path
 
-# Make the fitness_agent package in src/ importable without installing the project.
+# Make the admissions_agent package in src/ importable without installing the project.
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
 import argparse
@@ -11,7 +11,7 @@ import argparse
 from rich.console import Console
 from rich.panel import Panel
 
-from fitness_agent.agent.graph import build_graph
+from admissions_agent.agent.graph import build_graph
 
 console = Console()
 
@@ -51,7 +51,7 @@ def main():
         ask(graph, args.question)
         return
 
-    console.print("Fitness agent ready. Type a question, or 'quit' to stop.")
+    console.print("Admissions agent ready. Type a question, or 'quit' to stop.")
     while True:
         question = console.input("\n[bold]You:[/bold] ").strip()
         if question.lower() in {"quit", "exit"}:

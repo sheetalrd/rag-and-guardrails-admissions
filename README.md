@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # RAG and Guardrails with LangGraph
 
 A small study project: a fitness question-answering agent that shows, step by step, how **RAG** and **guardrails** work and how **LangGraph** ties them together.
@@ -227,3 +228,7 @@ The tests run offline: they replace the LLM and the database with simple fakes.
 | OpenAI authentication error | Check `OPENAI_API_KEY` in `.env` |
 | Ollama connection error | Start the Ollama app and check you pulled the model named in `.env` |
 | ChromaDB install fails on Windows | Install the [Microsoft C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/) and retry |
+=======
+# University-admissions-assistant_rag-and-guardrails
+Study project: RAG and guardrails with a LangGraph - University admissions assistant agent
+>>>>>>> ab28d99533c1a9275cd49c3b21bbea6eda98e940

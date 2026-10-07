@@ -3,7 +3,7 @@
 import sys
 from pathlib import Path
 
-# Make the fitness_agent package in src/ importable without installing the project.
+# Make the admissions_agent package in src/ importable without installing the project.
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
 import argparse
@@ -12,10 +12,10 @@ from rich.console import Console
 from rich.panel import Panel
 from rich.table import Table
 
-from fitness_agent.config import settings
-from fitness_agent.rag.context_builder import build_context
-from fitness_agent.rag.query_rewriter import rewrite_query
-from fitness_agent.rag.retriever import retrieve
+from admissions_agent.config import settings
+from admissions_agent.rag.context_builder import build_context
+from admissions_agent.rag.query_rewriter import rewrite_query
+from admissions_agent.rag.retriever import retrieve
 
 console = Console()
 

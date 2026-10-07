@@ -1,16 +1,16 @@
 import pytest
 
-from fitness_agent.agent import nodes
-from fitness_agent.agent.graph import build_graph
-from fitness_agent.guardrails.result import GuardrailResult
-from fitness_agent.rag.models import RetrievedChunk
+from admissions_agent.agent import nodes
+from admissions_agent.agent.graph import build_graph
+from admissions_agent.guardrails.result import GuardrailResult
+from admissions_agent.rag.models import RetrievedChunk
 
 
 @pytest.fixture
 def fake_pipeline(monkeypatch):
     """Replace every LLM and database call so the graph runs offline."""
-    chunk = RetrievedChunk(text="Rest days help muscles recover.", source="guide.pdf", page=1, distance=0.1)
-    monkeypatch.setattr(nodes, "rewrite_query", lambda question: "rest days recovery")
+    chunk = RetrievedChunk(text="Delft University of Technology is ranked #48 in the QS world University Rankings 2027.", source="/tudelft_admission_application_rag_dataset.pdf", page=1, distance=0.1)
+    monkeypatch.setattr(nodes, "rewrite_query", lambda question: "TU Delft QS ranking 2027")
     monkeypatch.setattr(nodes, "retrieve", lambda query, top_k: [chunk])
     monkeypatch.setattr(nodes, "generate_answer", lambda question, context: "Take rest days [1].")
     monkeypatch.setattr(
@@ -18,11 +18,11 @@ def fake_pipeline(monkeypatch):
     )
 
 
-def test_fitness_question_flows_through_rag(fake_pipeline):
-    state = build_graph().invoke({"question": "Are rest days important?"})
+def test_admissions_question_flows_through_rag(fake_pipeline):
+    state = build_graph().invoke({"question": "What are the admission requirements for Computer Science at TU Delft?"})
 
-    assert state["search_query"] == "rest days recovery"
-    assert "Rest days help muscles recover." in state["context"]
+    assert state["search_query"] == "TU Delft QS ranking 2027"
+    assert "Delft University of Technology is ranked #48 in the QS world University Rankings 2027." in state["context"]
     assert state["answer"] == "Take rest days [1]."
     assert [result.guard for result in state["guardrail_results"]] == ["regex", "nlu", "output"]
 
@@ -47,6 +47,6 @@ def test_output_block_replaces_answer(fake_pipeline, monkeypatch):
         nodes, "check_output", lambda question, context, answer: GuardrailResult("output", False, "not grounded")
     )
 
-    state = build_graph().invoke({"question": "Are rest days important?"})
+    state = build_graph().invoke({"question": "What are the admission requirements for Computer Science at TU Delft?"})
 
     assert state["answer"] == nodes.REFUSALS["output"]
