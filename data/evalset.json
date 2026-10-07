@@ -1,0 +1,201 @@
+[
+  {
+    "question": "What is the application deadline for Aerospace Engineering at TU Delft?",
+    "relevant": {
+      "tudelft_admission_application_rag_dataset.pdf-p1-c0": 2,
+      "tudelft_admission_application_rag_dataset.pdf-p2-c1": 2
+    }
+  },
+  {
+    "question": "Which school subjects do I need for Earth, Climate and Technology at TU Delft?",
+    "relevant": {
+      "tudelft_admission_application_rag_dataset.pdf-p2-c0": 2
+    }
+  },
+  {
+    "question": "When is the application deadline for Nanobiology at TU Delft?",
+    "relevant": {
+      "tudelft_admission_application_rag_dataset.pdf-p1-c0": 2,
+      "tudelft_admission_application_rag_dataset.pdf-p1-c1": 2,
+      "tudelft_admission_application_rag_dataset.pdf-p2-c0": 2,
+      "tudelft_admission_application_rag_dataset.pdf-p2-c1": 2,
+      "tudelft_admission_application_rag_dataset.pdf-p2-c2": 2
+    }
+  },
+  {
+    "question": "Does the computer science bachelor in Delft teach artificial intelligence?",
+    "relevant": {
+      "tudelft_admission_application_rag_dataset.pdf-p1-c1": 2
+    }
+  },
+  {
+    "question": "Is Nanobiology at TU Delft a numerus fixus programme, and is matching compulsory?",
+    "relevant": {
+      "tudelft_admission_application_rag_dataset.pdf-p2-c1": 2,
+      "tudelft_admission_application_rag_dataset.pdf-p2-c0": 1
+    }
+  },
+  {
+    "question": "Is the TU Delft information here an official prospectus, or should I double-check the dates?",
+    "relevant": {
+      "tudelft_admission_application_rag_dataset.pdf-p1-c0": 2,
+      "tudelft_admission_application_rag_dataset.pdf-p3-c0": 1
+    }
+  },
+  {
+    "question": "How many places are there on the English track of BSc Psychology at UvA?",
+    "relevant": {
+      "University_of_Amsterdam_Programmes.pdf-p11-c0": 2
+    }
+  },
+  {
+    "question": "What IELTS score do I need for MSc Complex Systems and Policy?",
+    "relevant": {
+      "University_of_Amsterdam_Programmes.pdf-p22-c0": 2,
+      "University_of_Amsterdam_Programmes.pdf-p22-c1": 2
+    }
+  },
+  {
+    "question": "Is work experience required for the Executive MBA at the University of Amsterdam?",
+    "relevant": {
+      "University_of_Amsterdam_Programmes.pdf-p30-c0": 2
+    }
+  },
+  {
+    "question": "When do I get my ranking number for BSc Business Administration at UvA?",
+    "relevant": {
+      "University_of_Amsterdam_Programmes.pdf-p9-c1": 2
+    }
+  },
+  {
+    "question": "How do I apply for a PhD at the University of Amsterdam?",
+    "relevant": {
+      "University_of_Amsterdam_Programmes.pdf-p33-c0": 2,
+      "University_of_Amsterdam_Programmes.pdf-p34-c1": 2,
+      "University_of_Amsterdam_Programmes.pdf-p33-c1": 1,
+      "University_of_Amsterdam_Programmes.pdf-p34-c0": 1
+    }
+  },
+  {
+    "question": "Do I need a GMAT for the MSc Business Administration at UvA?",
+    "relevant": {
+      "University_of_Amsterdam_Programmes.pdf-p18-c0": 2,
+      "University_of_Amsterdam_Programmes.pdf-p18-c1": 1
+    }
+  },
+  {
+    "question": "I'm from India. What would one year of BSc Political Science at UvA cost me in tuition?",
+    "relevant": {
+      "University_of_Amsterdam_Programmes.pdf-p13-c0": 2,
+      "University_of_Amsterdam_Programmes.pdf-p13-c1": 2,
+      "University_of_Amsterdam_Programmes.pdf-p4-c0": 1
+    }
+  },
+  {
+    "question": "Can I start the MSc Business Administration at UvA in February instead of September?",
+    "relevant": {
+      "University_of_Amsterdam_Programmes.pdf-p17-c1": 2,
+      "University_of_Amsterdam_Programmes.pdf-p17-c0": 2,
+      "University_of_Amsterdam_Programmes.pdf-p4-c1": 1
+    }
+  },
+  {
+    "question": "Which UvA bachelor's programme guarantees student housing?",
+    "relevant": {
+      "University_of_Amsterdam_Programmes.pdf-p15-c0": 2,
+      "University_of_Amsterdam_Programmes.pdf-p15-c1": 1
+    }
+  },
+  {
+    "question": "Is there a discount if I apply early for the MBA in AI, Data & Analytics?",
+    "relevant": {
+      "University_of_Amsterdam_Programmes.pdf-p31-c1": 2,
+      "University_of_Amsterdam_Programmes.pdf-p31-c0": 2
+    }
+  },
+  {
+    "question": "Can I get a student visa for the MBA in AI, Data & Analytics?",
+    "relevant": {
+      "University_of_Amsterdam_Programmes.pdf-p32-c1": 2
+    }
+  },
+  {
+    "question": "How much money do I need per month to live in Amsterdam as a student?",
+    "relevant": {
+      "University_of_Amsterdam_Programmes.pdf-p3-c2": 2,
+      "University_of_Amsterdam_Programmes.pdf-p5-c2": 1,
+      "University_of_Amsterdam_Programmes.pdf-p15-c1": 1,
+      "University_of_Amsterdam_Programmes.pdf-p15-c2": 1
+    }
+  },
+  {
+    "question": "What are the application deadlines for Liberal Arts and Sciences at Amsterdam University College?",
+    "relevant": {
+      "University_of_Amsterdam_Programmes.pdf-p15-c1": 2,
+      "University_of_Amsterdam_Programmes.pdf-p15-c0": 1,
+      "University_of_Amsterdam_Programmes.pdf-p4-c0": 1,
+      "University_of_Amsterdam_Programmes.pdf-p4-c1": 1,
+      "University_of_Amsterdam_Programmes.pdf-p3-c0": 1
+    }
+  },
+  {
+    "question": "Which is cheaper for a non-EU student at UvA: MSc Data Science and Business Analytics or MSc Information Studies (Data Science track)?",
+    "relevant": {
+      "University_of_Amsterdam_Programmes.pdf-p4-c1": 2,
+      "University_of_Amsterdam_Programmes.pdf-p19-c0": 1,
+      "University_of_Amsterdam_Programmes.pdf-p19-c1": 1,
+      "University_of_Amsterdam_Programmes.pdf-p25-c0": 1,
+      "University_of_Amsterdam_Programmes.pdf-p25-c1": 1,
+      "University_of_Amsterdam_Programmes.pdf-p25-c2": 1,
+      "University_of_Amsterdam_Programmes.pdf-p4-c2": 1
+    }
+  },
+  {
+    "question": "Do I have to write a motivation letter for the LLM European Union Law?",
+    "relevant": {
+      "University_of_Amsterdam_Programmes.pdf-p24-c1": 2
+    }
+  },
+  {
+    "question": "How many times can I take the OMPT maths test for BSc Business Analytics?",
+    "relevant": {
+      "University_of_Amsterdam_Programmes.pdf-p6-c0": 2
+    }
+  },
+  {
+    "question": "What TOEFL score do I need for BSc Business Analytics at UvA?",
+    "relevant": {
+      "University_of_Amsterdam_Programmes.pdf-p6-c0": 2,
+      "University_of_Amsterdam_Programmes.pdf-p6-c1": 2,
+      "University_of_Amsterdam_Programmes.pdf-p3-c1": 1
+    }
+  },
+  {
+    "question": "Wat is de aanmelddeadline voor de bachelor Psychologie aan de UvA?",
+    "relevant": {
+      "University_of_Amsterdam_Programmes.pdf-p11-c0": 2,
+      "University_of_Amsterdam_Programmes.pdf-p11-c1": 2,
+      "University_of_Amsterdam_Programmes.pdf-p3-c0": 2,
+      "University_of_Amsterdam_Programmes.pdf-p4-c0": 1
+    }
+  },
+  {
+    "question": "Which is cheaper for a non-EU student: a bachelor's at TU Delft or BSc Business Administration at UvA?",
+    "relevant": {
+      "tudelft_admission_application_rag_dataset.pdf-p2-c1": 1,
+      "University_of_Amsterdam_Programmes.pdf-p9-c0": 1,
+      "University_of_Amsterdam_Programmes.pdf-p9-c1": 1,
+      "University_of_Amsterdam_Programmes.pdf-p9-c2": 1,
+      "University_of_Amsterdam_Programmes.pdf-p4-c0": 1
+    }
+  },
+  {
+    "question": "How much does the full-time Amsterdam MBA cost?",
+    "relevant": {
+      "University_of_Amsterdam_Programmes.pdf-p27-c0": 2,
+      "University_of_Amsterdam_Programmes.pdf-p27-c1": 2,
+      "University_of_Amsterdam_Programmes.pdf-p2-c2": 2,
+      "University_of_Amsterdam_Programmes.pdf-p4-c2": 1
+    }
+  }
+]
