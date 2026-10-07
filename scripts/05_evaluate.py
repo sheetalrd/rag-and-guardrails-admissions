@@ -30,7 +30,7 @@ from admissions_agent.evaluation.metrics import (  # noqa: E402
 from admissions_agent.rag.query_rewriter import rewrite_query  # noqa: E402
 from admissions_agent.rag.retriever import retrieve  # noqa: E402
 
-EVAL_SET_PATH = PROJECT_ROOT / "data" / "eval_set.json"
+EVAL_SET_PATH = PROJECT_ROOT / "data" / "evalset.json"
 K_VALUES = [1, 3, 5, 10]
 WORST_K = 5  # the K used to rank the questions from worst to best
 WORST_COUNT = 3
