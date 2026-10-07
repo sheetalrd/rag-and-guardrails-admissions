@@ -18,6 +18,7 @@ class Chunk:
 
 @dataclass(frozen=True)
 class RetrievedChunk:
+    id: str
     text: str
     source: str
     page: int
