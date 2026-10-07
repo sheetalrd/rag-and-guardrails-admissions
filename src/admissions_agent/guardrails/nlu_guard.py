@@ -10,7 +10,7 @@ from admissions_agent.config import settings
 from admissions_agent.guardrails.result import GuardrailResult
 
 GUARD_NAME = "nlu"
-ALLOWED_LABEL = "admissions"
+ALLOWED_LABEL = "admission"
 
 
 def load_training_data(path: Path) -> tuple[list[str], list[str]]:
